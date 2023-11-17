@@ -1,0 +1,241 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*{
+  
+  font-family:"Lucida Console", "Courier New", monospace;
+  color: rgb(255, 198, 53);
+  
+}
+body{
+  /* background-image: linear-gradient(to right, black,red,black, black,red); */
+  background-image: linear-gradient(to right, black,red,black, black,red);
+
+}
+/* ======================================================= */
+.con{
+  padding: 50px;
+}
+#dropdown-black-example{
+  /* background-color:  rgb(255, 198, 53); */
+  background-color: black;
+  border: none;
+}
+#dropdown-black-example1{
+  /* background-color:  rgb(255, 198, 53); */
+  background-color: black;
+  border: none;
+}
+.fontl:hover{
+  color:  rgb(255, 198, 53,1);
+  text-shadow: 2px 2px 4px rgb(255, 198, 53,1);
+  cursor: pointer;
+}
+.it{
+  color: red;
+  text-align: center;
+}
+.fontl{
+  cursor: pointer;
+  font-family:"Lucida Console", "Courier New", monospace;
+  color: rgb(255, 198, 53,0.7);
+}
+.navre{
+  text-align: right;
+}
+.nav-item{
+  color: rgb(255, 198, 53);
+  
+}
+
+/* ============================================ */
+
+
+.shows {
+  
+  border-radius: 20px;
+  opacity: 1;  
+  position: relative;
+  max-width: 310px;
+  margin: 0 auto;
+}
+
+.shows:hover{
+  opacity: 1 ;
+  transition: 0.1s;
+  box-shadow: -5px 5px 10px rgb(255, 198, 53,0.4);
+  }
+
+.shows img {
+  border-radius: 20px;
+  vertical-align: middle;
+  width: 310px;
+  height: 500px;
+}
+.shows h1{
+  text-align: bottom;
+  /* display: block; */
+}
+.shows .content {
+  
+  border-top: 1px solid #61dafb;
+  border-right: 1px solid #61dafb;
+  position: absolute;
+  bottom: 0;
+  color: #f1f1f1;
+  width:100%;
+  height: 500px;
+  padding: 10px;
+  padding-top: 80%;
+  border-radius: 20px;
+  opacity: 0;
+  transition: 0.6s;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.4); /* Black background with 0.5 opacity */
+}
+
+.shows .content:hover {opacity: 1}
+
+.ourC{
+  background-color: rgb(255, 198, 53,1);
+  width: 140px;
+  height: 140px;
+  margin: 20px 40px 20px 60px;
+  /* margin-left: 15px;
+  margin-right: 15px; */
+  border-radius: 50%;
+  color: black;
+  text-align: center;
+  box-shadow: -5px 5px 10px  rgb(255, 198, 53,0.5) ;
+}
+
+/* ==================================== */
+
+.stip{
+  margin: 10px 0px 10px 0px;
+  border: red;
+  height: 70px;
+  /* background-color: rgb(7, 7, 7,0.2); */
+  background-color: rgb(7, 7, 7,1);
+  /* box-shadow: 0px 0px 10px rgba(145, 143, 143, 0.4); */
+  
+  box-shadow: 0px 0px 8px 3px rgb(0, 0, 0,0.2);
+  border-radius: 0%;
+}
+
+.saleB{
+  background-color: rgb(206, 205, 203,0.2);
+  /* width: 700px; */
+  border-radius: 10px;
+  
+  box-shadow: 0px 0px 8px 3px rgb(0, 0, 0,0.2);
+  /* box-shadow: -2px 2px 15px rgba(145, 144, 143, 0.5); */
+  
+}
+
+/* ===================footer========================== */
+
+
+/* ===================user mod==================================== */
+
+#sticky-side{
+  position: fixed;
+  max-width: 20%;
+  background-color: black;
+  height: 100%;
+}
+
+
+/* ==========================popup=============================== */
+
+.custom-modal {
+  position: absolute;
+  top: 950px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color:black;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  outline: none;
+  width: 400px;
+}
+
+.custom-modal-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  text-align: center;
+}
+
+.close-modal-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #333;
+  border: none;
+  background: none;
+}
+
+.close-modal-button:hover {
+  color: red;
+}
+
+.modal-title {
+  color: #333;
+}
+
+.okay-button,
+.close-button {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.okay-button:hover,
+.close-button:hover {
+  background-color: #2980b9;
+}

@@ -1,0 +1,387 @@
+{
+  "adminTable": [
+    {
+      "id": 100,
+      "adminname": "Admin1",
+      "email": "admin1@example.com",
+      "password": "password1"
+    },
+    {
+      "id": 101,
+      "adminname": "Admin2",
+      "email": "admin2@example.com",
+      "password": "password2"
+    },
+    {
+      "id": 102,
+      "adminname": "Admin3",
+      "email": "admin3@example.com",
+      "password": "password3"
+    }
+  ],
+  "userTable": [
+    {
+      "id": 200,
+      "username": "JohnDoe",
+      "email": "john@example.com",
+      "password": "pass123",
+      "contactno": "1234567890",
+      "gender": "male"
+    },
+    {
+      "id": 201,
+      "username": "AliceSmith",
+      "email": "alice@example.com",
+      "password": "alicepass",
+      "contactno": "9876543210",
+      "gender": "female"
+    },
+    {
+      "id": 202,
+      "username": "BobJohnson",
+      "email": "bob@example.com",
+      "password": "bobpass",
+      "contactno": "5555555555",
+      "gender": "male"
+    },
+    {
+      "id": 203,
+      "username": "EmilyJones",
+      "email": "emily@example.com",
+      "password": "emilypass",
+      "contactno": "1111111111",
+      "gender": "female"
+    },
+    {
+      "id": 204,
+      "username": "MaxBrown",
+      "email": "max@example.com",
+      "password": "maxpass",
+      "contactno": "9999999999",
+      "gender": "male"
+    },
+    {
+      "id": 205,
+      "username": "SophiaLee",
+      "email": "sophia@example.com",
+      "password": "sophiapass",
+      "contactno": "7777777777",
+      "gender": "female"
+    },
+    {
+      "id": 206,
+      "username": "DavidClark",
+      "email": "david@example.com",
+      "password": "davidpass",
+      "contactno": "8888888888",
+      "gender": "male"
+    },
+    {
+      "id": 207,
+      "username": "EmmaTaylor",
+      "email": "emma@example.com",
+      "password": "emmapass",
+      "contactno": "6666666666",
+      "gender": "female"
+    },
+    {
+      "id": 208,
+      "username": "LiamWilson",
+      "email": "liam@example.com",
+      "password": "liampass",
+      "contactno": "3333333333",
+      "gender": "male"
+    },
+    {
+      "id": 209,
+      "username": "OliviaMartinez",
+      "email": "olivia@example.com",
+      "password": "oliviapass",
+      "contactno": "4444444444",
+      "gender": "female"
+    },
+    {
+      "username": "Sundar",
+      "password": "sdfv32",
+      "email": "mk.sundar25@gmail.com",
+      "contactno": "6374121874",
+      "gender": "male",
+      "id": 210
+    },
+    {
+      "username": "kishore",
+      "password": "passcome21",
+      "email": "kishore@g.com",
+      "contactno": "8745621478",
+      "gender": "male",
+      "id": 211
+    },
+    {
+      "username": "Panchashil",
+      "password": "12345678",
+      "email": "panchashil123@gmail.com",
+      "contactno": "9090909090",
+      "gender": "male",
+      "id": 212
+    },
+    {
+      "username": "hutyui",
+      "password": "sgfa+896+",
+      "email": "yutu@g",
+      "contactno": "86+86+89",
+      "gender": "male",
+      "id": 213
+    },
+    {
+      "username": "hutyui",
+      "password": "sgfa+896+",
+      "email": "yutu@g",
+      "contactno": "86+86+89",
+      "gender": "male",
+      "id": 214
+    },
+    {
+      "username": "hutyui",
+      "password": "12345+678",
+      "email": "yutu@g",
+      "contactno": "1321654654651",
+      "gender": "male",
+      "id": 215
+    },
+    {
+      "username": "hutyui",
+      "password": "12345+678",
+      "email": "yutu@g",
+      "contactno": "1321654654651",
+      "gender": "male",
+      "id": 216
+    }
+  ],
+  "purchase": [
+    {
+      "id": "2311",
+      "productname": "Product 1",
+      "productprice": 29.99,
+      "useremail": "user1@example.com",
+      "username": "User One"
+    },
+    {
+      "id": "2312",
+      "productname": "Product 2",
+      "productprice": 49.99,
+      "useremail": "user2@example.com",
+      "username": "User Two"
+    },
+    {
+      "id": "2313",
+      "productname": "Product 3",
+      "productprice": 19.99,
+      "useremail": "user3@example.com",
+      "username": "User Three"
+    },
+    {
+      "id": "2314",
+      "productname": "Product 4",
+      "productprice": 39.99,
+      "useremail": "user4@example.com",
+      "username": "User Four"
+    },
+    {
+      "id": "2315",
+      "productname": "Product 5",
+      "productprice": 59.99,
+      "useremail": "user5@example.com",
+      "username": "User Five"
+    },
+    {
+      "id": "2316",
+      "productname": "gold",
+      "productprice": "$100"
+    },
+    {
+      "id": "2317",
+      "productname": "silver",
+      "productprice": "$150"
+    },
+    {
+      "id": "2318",
+      "productname": "gold",
+      "productprice": "$120"
+    },
+    {
+      "productname": "gold",
+      "productprice": "$120",
+      "id": "1GhKT5h"
+    },
+    {
+      "productname": "silver",
+      "productprice": "$150",
+      "useremail": "user@example.com",
+      "username": "New User",
+      "id": "NNS0aUa"
+    },
+    {
+      "id": "2356",
+      "productname": "gold",
+      "productprice": "$120",
+      "useremail": "user@example.com",
+      "username": "New User"
+    },
+    {
+      "id": "1",
+      "productname": "gold",
+      "productprice": "$100",
+      "useremail": "user@example.com",
+      "username": "New User"
+    },
+    {
+      "id": "2",
+      "productname": "silver",
+      "productprice": "$150",
+      "useremail": "user@example.com",
+      "username": "New User"
+    },
+    {
+      "id": "3",
+      "productname": "gold",
+      "productprice": "$100",
+      "useremail": "user@example.com",
+      "username": "New User"
+    },
+    {
+      "id": "4",
+      "productname": "platinum",
+      "productprice": "$100",
+      "useremail": "user@example.com",
+      "username": "New User"
+    },
+    {
+      "id": "5",
+      "productname": "gold",
+      "productprice": "$150",
+      "useremail": "user@example.com",
+      "username": "New User"
+    },
+    {
+      "id": "6",
+      "productname": "gold",
+      "productprice": "$100",
+      "useremail": "user@example.com",
+      "username": "New User"
+    },
+    {
+      "id": "7",
+      "productname": "gold",
+      "productprice": "$100",
+      "useremail": "user@example.com",
+      "username": "New User"
+    },
+    {
+      "id": "8",
+      "productname": "gold",
+      "productprice": "$100",
+      "useremail": "user@example.com",
+      "username": "New User"
+    },
+    {
+      "id": "9",
+      "productname": "silver",
+      "productprice": "$150",
+      "useremail": "user@example.com",
+      "username": "New User"
+    },
+    {
+      "id": "10",
+      "productname": "gold",
+      "productprice": "$150",
+      "useremail": "user@example.com",
+      "username": "New User"
+    }
+  ],
+  "contactus": [
+    {
+      "id": 4511,
+      "name": "John Doe",
+      "contact": "+1234567890",
+      "email": "johndoe@example.com",
+      "message": "This is a test message 1."
+    },
+    {
+      "id": 4512,
+      "name": "Alice Smith",
+      "contact": "+1987654321",
+      "email": "alice.smith@example.com",
+      "message": "This is a test message 2."
+    },
+    {
+      "id": 4513,
+      "name": "Bob Johnson",
+      "contact": "+1122334455",
+      "email": "bob.johnson@example.com",
+      "message": "This is a test message 3."
+    },
+    {
+      "id": 4514,
+      "name": "Emily Brown",
+      "contact": "+1444333222",
+      "email": "emily.brown@example.com",
+      "message": "This is a test message 4."
+    },
+    {
+      "id": 4515,
+      "name": "Michael Davis",
+      "contact": "+1777666555",
+      "email": "michael.davis@example.com",
+      "message": "This is a test message 5."
+    },
+    {
+      "id": 4516,
+      "name": "Sophia Wilson",
+      "contact": "+1999888777",
+      "email": "sophia.wilson@example.com",
+      "message": "This is a test message 6."
+    },
+    {
+      "id": 4517,
+      "name": "Liam Garcia",
+      "contact": "+1666555444",
+      "email": "liam.garcia@example.com",
+      "message": "This is a test message 7."
+    },
+    {
+      "id": 4518,
+      "name": "Olivia Martinez",
+      "contact": "+1888444333",
+      "email": "olivia.martinez@example.com",
+      "message": "This is a test message 8."
+    },
+    {
+      "id": 4519,
+      "name": "Noah Rodriguez",
+      "contact": "+1333222111",
+      "email": "noah.rodriguez@example.com",
+      "message": "This is a test message 9."
+    },
+    {
+      "id": 4520,
+      "name": "Ava Hernandez",
+      "contact": "+1555999888",
+      "email": "ava.hernandez@example.com",
+      "message": "This is a test message 10."
+    },
+    {
+      "name": "sundar33",
+      "contact": "6347121874",
+      "email": "john@example.com",
+      "message": "gsfgrgfsd",
+      "id": 4522
+    },
+    {
+      "name": "kishore",
+      "contact": "8745621478",
+      "email": "kishore@gmail.com",
+      "message": "test message",
+      "id": 4523
+    }
+  ]
+}
